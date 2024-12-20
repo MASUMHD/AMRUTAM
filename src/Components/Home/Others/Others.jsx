@@ -8,7 +8,7 @@ const Others = () => {
         <div className="flex-1 ">
           <Left />
         </div>
-        <div className="flex-1 border">
+        <div className="flex-1 ">
           <Right />
         </div>
       </div>

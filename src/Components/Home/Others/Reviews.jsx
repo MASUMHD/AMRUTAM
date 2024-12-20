@@ -1,16 +1,14 @@
-import { FaStar } from "react-icons/fa"; // For the star icons
+import { FaStar } from "react-icons/fa";
 
 const Reviews = () => {
   return (
     <div className="mt-8 border rounded-xl">
-      {/* Header */}
       <div className="flex justify-between items-center rounded-t-xl bg-[#F4F7EC] pt-3 pb-3 pl-10 pr-10">
         <h3 className="text-xl font-semibold text-[#313131]">
           Featured Reviews (102)
         </h3>
       </div>
 
-      {/* Review Content */}
       <div className="p-6">
         <div className="border p-6 rounded-lg bg-[#FAFAFA]">
           <div className="flex items-center gap-4 mb-4">
@@ -30,7 +28,6 @@ const Reviews = () => {
             </span>
           </div>
 
-          {/* Star Ratings */}
           <div className="flex items-center gap-1 mb-3 text-[#F4B400]">
             {[...Array(5)].map((_, index) => (
               <FaStar key={index} />
@@ -43,7 +40,7 @@ const Reviews = () => {
             longer periods.
           </p>
         </div>
-        
+
         <div className="border mt-6 p-6 rounded-lg bg-[#FAFAFA]">
           <div className="flex items-center gap-4 mb-4">
             <img

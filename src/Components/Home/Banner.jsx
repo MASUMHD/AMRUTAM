@@ -3,7 +3,7 @@ import { IoCheckmarkDoneCircle } from "react-icons/io5";
 
 const Banner = () => {
   return (
-    <div className="bg-[#FFFBF2] rounded-xl rounded-b-none shadow-md overflow-hidden h-56 border" >
+    <div className="bg-[#FFFBF2] rounded-xl rounded-b-none overflow-hidden h-56 border" >
       {/* Background */}
       <div className="h-28 rounded-t-lg">
         <img
