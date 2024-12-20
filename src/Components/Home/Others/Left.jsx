@@ -1,6 +1,7 @@
 import AboutMe from "./AboutMe";
 import Concerns from "./Concerns";
 import MyWork from "./MyWork";
+import Reviews from "./Reviews";
 import Specialize from "./Specialize";
 
 
@@ -11,6 +12,7 @@ const Left = () => {
         <Specialize/>
         <Concerns/>
         <MyWork/>
+        <Reviews/>
     </div>
   );
 };

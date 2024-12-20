@@ -1,7 +1,6 @@
 const MyWork = () => {
     return (
-      <div className="mt-8 border rounded-xl shadow-md">
-        {/* Header */}
+      <div className="mt-8 border rounded-xl ">
         <div className="flex justify-between items-center rounded-t-xl bg-[#F4F7EC] pt-3 pb-3 pl-10 pr-10">
           <h3 className="text-xl font-semibold text-[#313131]">
             My Work Experience
