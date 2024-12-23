@@ -59,7 +59,6 @@ const Reviews = () => {
             </span>
           </div>
 
-          {/* Star Ratings */}
           <div className="flex items-center gap-1 mb-3 text-[#F4B400]">
             {[...Array(5)].map((_, index) => (
               <FaStar key={index} />
